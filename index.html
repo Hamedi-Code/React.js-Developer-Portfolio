@@ -1,0 +1,996 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>React Developer Portfolio</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+  </head>
+  <body>
+    <!-- <div class="blob-bg"></div> -->
+
+    <header class="navbar">
+      <div class="logo"><i class="fa-solid fa-code"></i> Code</div>
+
+      <button
+        class="menu-toggle"
+        id="menu-toggle"
+        aria-label="Toggle navigation"
+      >
+        <i class="fa-solid fa-bars"></i>
+      </button>
+
+      <nav class="nav-links" id="nav-links">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#services">Services</a>
+        <a href="#contact" class="nav-contact">Contact</a>
+      </nav>
+
+      <a href="#contact" class="btn btn-white hire-btn">Hire Me</a>
+    </header>
+    <main class="hero-container">
+      <div class="hero-content">
+        <div class="badge">
+          <span
+            ><i class="fa fa-solid fa-star" style="color: gold"></i> React
+            Developer & UI/UX Enthusiast | Based in San Francisco, CA</span
+          >
+        </div>
+
+        <h1 class="hero-title">React.js Developer<br />Portfolio</h1>
+
+        <p class="hero-description">
+          Building modern, scalable web applications with React, JavaScript, and
+          cutting-edge technologies. Transforming ideas into exceptional digital
+          experiences.
+        </p>
+
+        <a href="#contact" class="btn btn-white cta-btn">Get in Touch</a>
+
+        <div class="stats-container">
+          <div class="stat-item">
+            <h3>3+</h3>
+            <p>Years<br />Experience</p>
+          </div>
+          <div class="stat-item">
+            <h3>50+</h3>
+            <p>Projects<br />Completed</p>
+          </div>
+          <div class="stat-item">
+            <h3>15+</h3>
+            <p>Technologies</p>
+          </div>
+          <div class="stat-item">
+            <h3>98%</h3>
+            <p>Client<br />Satisfaction</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-image-wrapper">
+        <div class="image-card">
+          <img src="./images/header.jpg" alt="header Profile" />
+
+          <div class="tech-bar">
+            <span class="tech-icon"
+              ><i
+                class="fa-brands fa-node-js"
+                style="color: #4ade80; font-size: 30px"
+              ></i
+            ></span>
+            <span class="tech-icon">
+              <i
+                class="fa-brands fa-github"
+                style="color: #4ade80; font-size: 30px"
+              ></i>
+            </span>
+            <span class="tech-icon">
+              <i
+                class="fa-brands fa-react"
+                style="color: #4ade80; font-size: 30px"
+              ></i>
+            </span>
+            <span class="tech-icon">
+              <i
+                class="fa-brands fa-js"
+                style="color: #4ade80; font-size: 30px"
+              ></i>
+            </span>
+            <span class="tech-icon">
+              <i
+                class="fa-brands fa-node-js"
+                style="color: #4ade80; font-size: 30px"
+              ></i>
+            </span>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <section class="about-section" id="about">
+      <div class="about-content">
+        <div class="badge-secondary">
+          <span
+            ><i class="fa fa-solid fa-code"></i>
+            Full-Stack Developer
+          </span>
+        </div>
+
+        <h2 class="about-title">
+          Crafting Digital<br />Experiences That Matter
+        </h2>
+
+        <p class="about-text">
+          I'm a passionate React developer with over 3 years of experience
+          building scalable, performant web applications. I specialize in
+          creating intuitive user interfaces that combine beautiful design with
+          exceptional functionality.
+        </p>
+        <p class="about-text">
+          My expertise spans the entire frontend ecosystem, from React and
+          Next.js to TypeScript and modern CSS frameworks. I'm committed to
+          writing clean, maintainable code and staying current with the latest
+          web technologies.
+        </p>
+        <p class="about-text">
+          When I'm not coding, you'll find me contributing to open-source
+          projects, writing technical articles, or exploring new design trends.
+        </p>
+
+        <div class="about-stats">
+          <div class="sub-stat">
+            <h4>45+</h4>
+            <p>Happy Clients</p>
+          </div>
+          <div class="sub-stat">
+            <h4>2.5K+</h4>
+            <p>Code Commits</p>
+          </div>
+          <div class="sub-stat">
+            <h4>500+</h4>
+            <p>GitHub Stars</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="cards-container">
+        <div class="card card-full">
+          <div class="card-icon-wrapper green-bg">
+            <span class="card-icon">
+              <i class="fa fa-solid fa-code"></i>
+            </span>
+          </div>
+          <div class="card-text">
+            <h3>Expertise</h3>
+            <p>
+              Specialized in building scalable web applications with modern
+              technologies and best practices.
+            </p>
+          </div>
+        </div>
+
+        <div class="card-row">
+          <div class="card">
+            <div class="card-icon-wrapper green-dim">
+              <span class="card-icon">
+                <i class="fa fa-solid fa-star"></i>
+              </span>
+            </div>
+            <h3>Clean Code</h3>
+            <p>Writing maintainable, well-documented code that scales.</p>
+          </div>
+
+          <div class="card">
+            <div class="card-icon-wrapper green-dim">
+              <span class="card-icon">
+                <i class="fa fa-solid fa-download"></i>
+              </span>
+            </div>
+            <h3>Performance</h3>
+            <p>Optimizing for speed and efficiency in every project.</p>
+          </div>
+        </div>
+
+        <div class="features-bar">
+          <div class="feature-item">
+            <h4>100%</h4>
+            <p>Client Satisfaction</p>
+          </div>
+          <div class="feature-item">
+            <h4>24/7</h4>
+            <p>Support Available</p>
+          </div>
+          <div class="feature-item">
+            <h4 class="highlight-text">Fast</h4>
+            <p>Delivery Time</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="tech-section" id="skills">
+      <div class="action-bar">
+        <a href="#" class="btn btn-white download-btn">
+          <span class="download-icon">
+            <i class="fa fa-solid fa-download"></i>
+          </span>
+          Download Resume
+        </a>
+      </div>
+
+      <div class="tech-header">
+        <h2>Tech Stack & Expertise</h2>
+        <p>Technologies I work with to build amazing products</p>
+      </div>
+
+      <div class="tech-grid">
+        <div class="tech-card">
+          <span class="tech-icon">
+            <i
+              class="fa-brands fa-react"
+              style="color: #4ade80; font-size: 30px"
+            ></i
+          ></span>
+          <span class="tech-name">React.js</span>
+        </div>
+
+        <div class="tech-card">
+          <span class="tech-icon">
+            <i
+              class="fa-solid fa-bolt"
+              style="color: #4ade80; font-size: 30px"
+            ></i>
+          </span>
+          <span class="tech-name">Next.js</span>
+        </div>
+
+        <div class="tech-card">
+          <span class="tech-logo ts-color">
+            <i
+              class="fa fa-brands fa-typescript"
+              style="color: #4ade80; font-size: 30px"
+            ></i>
+          </span>
+          <span class="tech-name">TypeScript</span>
+        </div>
+
+        <div class="tech-card">
+          <span class="tech-logo tailwind-color">
+            <i
+              class="fa-brands fa-css3-alt"
+              style="color: #4ade80; font-size: 30px"
+            ></i>
+          </span>
+          <span class="tech-name">Tailwind CSS</span>
+        </div>
+
+        <div class="tech-card">
+          <span class="tech-icon">
+            <i
+              class="fa-brands fa-node-js"
+              style="color: #4ade80; font-size: 30px"
+            ></i>
+          </span>
+
+          <span class="tech-name">Node.js</span>
+        </div>
+
+        <div class="tech-card">
+          <span class="tech-logo mongo-color">
+            <i
+              class="fa fa-solid fa-database"
+              style="color: #4ade80; font-size: 30px"
+            ></i>
+          </span>
+          <span class="tech-name">MongoDB</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="skills-metrics-section" id="detailed-skills">
+      <div class="skills-header">
+        <div class="badge-secondary centered-badge">
+          <span>
+            <i class="fa fa-solid fa-star"></i>
+            My Expertise</span
+          >
+        </div>
+        <h2>Skills & Technologies</h2>
+        <p>
+          A comprehensive overview of my technical skills and proficiency levels
+        </p>
+      </div>
+
+      <div class="skills-columns-grid">
+        <div class="skills-column-card">
+          <h3 class="column-title frontend-border">Frontend Development</h3>
+
+          <div class="skill-group">
+            <div class="skill-info">
+              <div class="skill-meta">
+                <span class="skill-icon" style="text-align: center">
+                  <i class="fa fa-solid fa-code"></i>
+                </span>
+                <div>
+                  <h4>React.js</h4>
+                  <p>3+ years</p>
+                </div>
+              </div>
+              <span class="level-badge expert">Expert</span>
+            </div>
+            <div class="progress-bar">
+              <div class="progress-fill" style="width: 90%"></div>
+            </div>
+          </div>
+
+          <div class="skill-group">
+            <div class="skill-info">
+              <div class="skill-meta">
+                <span class="skill-icon">
+                  <i class="fa fa-brands fa-js"></i>
+                </span>
+                <div>
+                  <h4>JavaScript</h4>
+                  <p>4+ years</p>
+                </div>
+              </div>
+              <span class="level-badge expert">Expert</span>
+            </div>
+            <div class="progress-bar">
+              <div class="progress-fill" style="width: 95%"></div>
+            </div>
+          </div>
+
+          <div class="skill-group">
+            <div class="skill-info">
+              <div class="skill-meta">
+                <span class="skill-icon">
+                  <i class="fa fa-brands fa-typescript"></i>
+                </span>
+                <div>
+                  <h4>TypeScript</h4>
+                  <p>2+ years</p>
+                </div>
+              </div>
+              <span class="level-badge advanced">Advanced</span>
+            </div>
+            <div class="progress-bar">
+              <div class="progress-fill" style="width: 80%"></div>
+            </div>
+          </div>
+
+          <div class="skill-group">
+            <div class="skill-info">
+              <div class="skill-meta">
+                <span class="skill-icon">
+                  <i class="fa-solid fa-bolt" style="color: #4ade80"></i>
+                </span>
+                <div>
+                  <h4>Next.js</h4>
+                  <p>2+ years</p>
+                </div>
+              </div>
+              <span class="level-badge advanced">Advanced</span>
+            </div>
+            <div class="progress-bar">
+              <div class="progress-fill" style="width: 78%"></div>
+            </div>
+          </div>
+
+          <div class="skill-group">
+            <div class="skill-info">
+              <div class="skill-meta">
+                <span class="skill-icon">
+                  <i
+                    class="fa fa-brands fa-css3-alt"
+                    style="color: #4ade80"
+                  ></i>
+                </span>
+                <div>
+                  <h4>Tailwind CSS</h4>
+                  <p>3+ years</p>
+                </div>
+              </div>
+              <span class="level-badge expert">Expert</span>
+            </div>
+            <div class="progress-bar">
+              <div class="progress-fill" style="width: 92%"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skills-column-card">
+          <h3 class="column-title backend-border">Backend & APIs</h3>
+
+          <div class="skill-group">
+            <div class="skill-info">
+              <div class="skill-meta">
+                <span class="skill-icon">
+                  <i class="fa fa-brands fa-node-js" style="color: #4ade80"></i>
+                </span>
+                <div>
+                  <h4>Node.js</h4>
+                  <p>2+ years</p>
+                </div>
+              </div>
+              <span class="level-badge intermediate">Intermediate</span>
+            </div>
+            <div class="progress-bar">
+              <div class="progress-fill" style="width: 65%"></div>
+            </div>
+          </div>
+
+          <div class="skill-group">
+            <div class="skill-info">
+              <div class="skill-meta">
+                <span class="skill-icon">
+                  <i class="fa-solid fa-plug" style="color: #4ade80"></i>
+                </span>
+                <div>
+                  <h4>REST APIs</h4>
+                  <p>3+ years</p>
+                </div>
+              </div>
+              <span class="level-badge advanced">Advanced</span>
+            </div>
+            <div class="progress-bar">
+              <div class="progress-fill" style="width: 85%"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skills-column-card">
+          <h3 class="column-title tools-border">Tools & Others</h3>
+
+          <div class="skill-group">
+            <div class="skill-info">
+              <div class="skill-meta">
+                <span class="skill-icon">
+                  <i class="fa fa-brands fa-github" style="color: #4ade80"></i>
+                </span>
+                <div>
+                  <h4>Git & GitHub</h4>
+                  <p>4+ years</p>
+                </div>
+              </div>
+              <span class="level-badge advanced">Advanced</span>
+            </div>
+            <div class="progress-bar">
+              <div class="progress-fill" style="width: 88%"></div>
+            </div>
+          </div>
+
+          <div class="skill-group">
+            <div class="skill-info">
+              <div class="skill-meta">
+                <span class="skill-icon">
+                  <i
+                    class="fa-solid fa-mobile-screen"
+                    style="color: #4ade80"
+                  ></i>
+                </span>
+                <div>
+                  <h4>Responsive Design</h4>
+                  <p>3+ years</p>
+                </div>
+              </div>
+              <span class="level-badge expert">Expert</span>
+            </div>
+            <div class="progress-bar">
+              <div class="progress-fill" style="width: 95%"></div>
+            </div>
+          </div>
+
+          <div class="skill-group">
+            <div class="skill-info">
+              <div class="skill-meta">
+                <span class="skill-icon">
+                  <i class="fa fa-brands fa-figma" style="color: #4ade80"></i>
+                </span>
+                <div>
+                  <h4>Figma</h4>
+                  <p>2+ years</p>
+                </div>
+              </div>
+              <span class="level-badge intermediate">Intermediate</span>
+            </div>
+            <div class="progress-bar">
+              <div class="progress-fill" style="width: 70%"></div>
+            </div>
+          </div>
+
+          <div class="skill-group">
+            <div class="skill-info">
+              <div class="skill-meta">
+                <span class="skill-icon">
+                  <i class="fa-solid fa-rocket" style="color: #4ade80"></i>
+                </span>
+                <div>
+                  <h4>Vite</h4>
+                  <p>1+ years</p>
+                </div>
+              </div>
+              <span class="level-badge advanced">Advanced</span>
+            </div>
+            <div class="progress-bar">
+              <div class="progress-fill" style="width: 80%"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects-section" id="projects">
+      <div class="projects-header">
+        <div class="badge-secondary centered-badge">
+          <span>
+            <i class="fa-solid fa-briefcase"></i>
+            My Work</span
+          >
+        </div>
+        <h2>Featured Projects</h2>
+        <p>Showcasing my best work and achievements</p>
+      </div>
+
+      <div class="filter-container">
+        <button class="filter-btn active">
+          <i class="fa-solid fa-bullseye" style="margin-right: 10px"></i>All
+        </button>
+        <button class="filter-btn">
+          <i class="fa-solid fa-globe" style="margin-right: 10px"></i>Web Apps
+        </button>
+        <button class="filter-btn">
+          <i class="fa-solid fa-gamepad" style="margin-right: 10px"></i>UI
+          Components
+        </button>
+        <button class="filter-btn">
+          <i class="fa-solid fa-bolt" style="margin-right: 10px"></i>Full Stack
+        </button>
+      </div>
+
+      <div class="projects-carousel-wrapper">
+        <button class="slider-arrow arrow-left">
+          <span>
+            <i class="fa fa-solid fa-arrow-left"></i>
+          </span>
+        </button>
+
+        <div class="projects-grid">
+          <div class="project-card">
+            <div class="project-image-wrapper">
+              <img src="./images/img-17.avif" alt="E-Commerce Platform" />
+              <span class="project-badge">Full Stack</span>
+              <div class="project-actions">
+                <a href="#" class="action-icon-btn" title="Live Demo">
+                  <i class="fa-solid fa-link" style="color: white"></i>
+                </a>
+                <a href="#" class="action-icon-btn" title="GitHub Repository">
+                  <i class="fa-brands fa-github" style="color: white"></i>
+                </a>
+              </div>
+            </div>
+            <div class="project-info">
+              <h3>E-Commerce Platform</h3>
+              <p class="project-desc">
+                Full-stack online shopping application with real-time inventory
+                management, secure payment processing...
+              </p>
+              <div class="tech-tags">
+                <span class="tag">React</span>
+                <span class="tag">Node.js</span>
+                <span class="tag">MongoDB</span>
+                <span class="tag">Stripe</span>
+              </div>
+              <div class="project-metric">
+                <span class="metric-icon">
+                  <i class="fa-solid fa-chart-line"></i>
+                </span>
+                40% increase in conversion
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-image-wrapper">
+              <img src="./images/igm-16.avif" alt="Task Management Dashboard" />
+              <span class="project-badge">Web Apps</span>
+              <div class="project-actions">
+                <a href="#" class="action-icon-btn" title="Live Demo">
+                  <i class="fa-solid fa-link" style="color: white"></i>
+                </a>
+                <a href="#" class="action-icon-btn" title="GitHub Repository">
+                  <i class="fa-brands fa-github" style="color: white"></i>
+                </a>
+              </div>
+            </div>
+            <div class="project-info">
+              <h3>Task Management Dashboard</h3>
+              <p class="project-desc">
+                Collaborative project management tool with drag-and-drop kanban
+                boards, real-time updates, and tea...
+              </p>
+              <div class="tech-tags">
+                <span class="tag">React</span>
+                <span class="tag">TypeScript</span>
+                <span class="tag">Firebase</span>
+                <span class="tag">Tailwind</span>
+              </div>
+              <div class="project-metric">
+                <span class="metric-icon">
+                  <i class="fa-solid fa-chart-line"></i>
+                </span>
+                500+ active users
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-image-wrapper">
+              <img src="./images/img-30.avif" alt="Component Library" />
+              <span class="project-badge">UI Components</span>
+              <div class="project-actions">
+                <a href="#" class="action-icon-btn" title="Live Demo">
+                  <i class="fa-solid fa-link" style="color: white"></i>
+                </a>
+                <a href="#" class="action-icon-btn" title="GitHub Repository">
+                  <i class="fa-brands fa-github" style="color: white"></i>
+                </a>
+              </div>
+            </div>
+            <div class="project-info">
+              <h3>Component Library</h3>
+              <p class="project-desc">
+                Comprehensive React component library with 50+ customizable
+                components, built with accessibility and...
+              </p>
+              <div class="tech-tags">
+                <span class="tag">React</span>
+                <span class="tag">TypeScript</span>
+                <span class="tag">Storybook</span>
+                <span class="tag">CSS Modules</span>
+              </div>
+              <div class="project-metric">
+                <span class="metric-icon">
+                  <i class="fa-solid fa-chart-line"></i>
+                </span>
+                1K+ npm downloads
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <button class="slider-arrow arrow-right">
+          <span>
+            <i class="fa fa-solid fa-arrow-right"></i>
+          </span>
+        </button>
+      </div>
+    </section>
+
+    <section class="services-section" id="services">
+      <div class="grid-overlay"></div>
+
+      <div class="services-header">
+        <div class="badge-secondary centered-badge">
+          <span
+            ><i class="fa-solid fa-screwdriver-wrench"></i> What I Offer</span
+          >
+        </div>
+        <h2>Built for innovation. Designed for results.</h2>
+        <p>
+          Comprehensive solutions to transform your ideas into exceptional
+          digital experiences.
+        </p>
+      </div>
+
+      <div class="services-container">
+        <div class="services-top-row">
+          <div class="service-card large-card">
+            <div class="service-icon-box">
+              <i class="fa-solid fa-square"></i>
+            </div>
+            <h3>Frontend Development</h3>
+            <p>
+              Building responsive and performant web applications using React,
+              Next.js, and modern JavaScript frameworks with pixel-perfect
+              designs.
+            </p>
+          </div>
+
+          <div class="service-card large-card active-service">
+            <div class="service-icon-box">
+              <i class="fa-solid fa-mobile-screen"></i>
+            </div>
+            <h3>Responsive Design</h3>
+            <p>
+              Creating mobile-first, responsive interfaces that work seamlessly
+              across all devices and screen sizes with exceptional user
+              experience.
+            </p>
+          </div>
+        </div>
+
+        <div class="services-bottom-row">
+          <div class="service-card small-card">
+            <div class="service-icon-box">
+              <i class="fa-solid fa-palette"></i>
+            </div>
+            <h3>UI/UX Design</h3>
+            <p>
+              Designing intuitive and visually appealing user interfaces with a
+              focus on usability, accessibility, and modern...
+            </p>
+          </div>
+
+          <div class="service-card small-card">
+            <div class="service-icon-box"><i class="fa-solid fa-code"></i></div>
+            <h3>Custom Components</h3>
+            <p>
+              Developing reusable, scalable component libraries and design
+              systems that maintain consistency...
+            </p>
+          </div>
+
+          <div class="service-card small-card">
+            <div class="service-icon-box"><i class="fa-solid fa-bolt"></i></div>
+            <h3>Performance Optimization</h3>
+            <p>
+              Optimizing web applications for speed and efficiency through code
+              splitting, lazy loading, and best...
+            </p>
+          </div>
+
+          <div class="service-card small-card">
+            <div class="service-icon-box"><i class="fa-solid fa-link"></i></div>
+            <h3>Code Review & Consulting</h3>
+            <p>
+              Providing expert code reviews, architecture consulting, and
+              technical guidance to improve your...
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonials-section" id="testimonials">
+      <div class="testimonials-header">
+        <div class="badge-secondary centered-badge">
+          <span>99 Testimonials</span>
+        </div>
+        <h2>Trusted by forward-<br />thinking teams</h2>
+        <p>
+          Empowering clients with design-driven, high-quality solutions built
+          for success.
+        </p>
+      </div>
+
+      <div class="testimonial-slider-container">
+        <button class="slider-arrow arrow-left">
+          <span><i class="fa fa-solid fa-arrow-left"></i></span>
+        </button>
+
+        <div class="testimonial-card">
+          <div class="client-image-wrapper">
+            <img
+              src="./images/img-1.jpg"
+              alt="Sarah Mitchell Profile"
+            />
+            <div class="floating-metric-box">
+              <h4>3x</h4>
+              <p>Faster Delivery</p>
+            </div>
+          </div>
+
+          <div class="testimonial-content">
+            <span class="quote-mark">“</span>
+            <blockquote class="review-text">
+              "Outstanding work on our React application. Alex delivered a
+              high-performance, scalable solution that exceeded our
+              expectations. The attention to detail and code quality was
+              exceptional."
+            </blockquote>
+
+            <div class="client-meta-row">
+              <div class="client-details">
+                <h3>Mike</h3>
+                <p>CTO, TechStart Inc.</p>
+              </div>
+              <div class="star-rating">
+                <i class="fa-solid fa-star" style="color: gold"></i>
+                <i class="fa-solid fa-star" style="color: gold"></i>
+                <i class="fa-solid fa-star" style="color: gold"></i>
+                <i class="fa-solid fa-star" style="color: gold"></i>
+                <i class="fa-solid fa-star" style="color: gold"></i>
+                <i class="fa-solid fa-star" style="color: gold"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <button class="slider-arrow arrow-right">
+          <span><i class="fa-solid fa-arrow-right"></i></span>
+        </button>
+      </div>
+
+      <div class="pagination-dots">
+        <span class="dot active"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <div class="contact-header">
+        <div class="badge-secondary centered-badge">
+          <span><i class="fa-solid fa-comment"></i> Get In Touch</span>
+        </div>
+        <h2>Let's Work Together</h2>
+        <p>
+          Have a project in mind? Let's discuss how we can bring your ideas to
+          life.
+        </p>
+      </div>
+
+      <div class="contact-split-container">
+        <form class="contact-form-card" onsubmit="event.preventDefault()">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" placeholder="Your name" required />
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input
+              type="email"
+              id="email"
+              placeholder="your.email@example.com"
+              required
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea
+              id="message"
+              rows="5"
+              placeholder="Tell me about your project..."
+              required
+            ></textarea>
+          </div>
+
+          <button type="submit" class="submit-btn">
+            <span>Send Message</span>
+            <span class="send-icon">
+              <i class="fa-solid fa-paper-plane fa-md" style="color: #fff"></i>
+            </span>
+          </button>
+        </form>
+
+        <div class="contact-info-column">
+          <h3>Let's Connect</h3>
+          <p class="connect-text">
+            I'm always open to discussing new projects, creative ideas, or
+            opportunities to be part of your vision. Feel free to reach out!
+          </p>
+
+          <div class="info-row-card">
+            <div class="info-icon-square">
+              <i class="fa-solid fa-envelope"></i>
+            </div>
+            <div class="info-details">
+              <span class="info-label">Email</span>
+              <a href="mailto:alex@timetoprogram.com" class="info-value"
+                >alex@timetoprogram.com</a
+              >
+            </div>
+          </div>
+
+          <div class="info-row-card">
+            <div class="info-icon-square">
+              <i class="fa-solid fa-location-dot"></i>
+            </div>
+            <div class="info-details">
+              <span class="info-label">Location</span>
+              <span class="info-value">San Francisco, CA</span>
+            </div>
+          </div>
+
+          <div class="socials-wrapper">
+            <h4>Connect with me</h4>
+            <div class="socials-row">
+              <a href="#" class="social-btn" title="GitHub"
+                ><i class="fa-brands fa-github" style="color: white"></i
+              ></a>
+              <a href="#" class="social-btn" title="LinkedIn"
+                ><i class="fa-brands fa-linkedin-in" style="color: white"></i
+              ></a>
+              <a href="#" class="social-btn" title="Twitter / X"
+                ><i class="fa-brands fa-x-twitter" style="color: white"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      <div class="footer-container">
+        <div class="footer-column brand-column">
+          <h2 class="footer-logo">Code</h2>
+          <p class="footer-brief">
+            Crafting seamless digital experiences with modern web technologies.
+          </p>
+
+          <div class="footer-contact-pills">
+            <div class="footer-pill">
+              <span class="pill-icon">
+                <i class="fa-solid fa-envelope"></i>
+              </span>
+              <a href="mailto:alex@timetoprogram.com"
+                >exlample@timetoprogram.com</a
+              >
+            </div>
+            <div class="footer-pill">
+              <span class="pill-icon">
+                <i class="fa-solid fa-location-dot"></i>
+              </span>
+              <span>San Francisco, CA</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-column links-column">
+          <h3>Quick Links</h3>
+          <ul class="footer-links-list">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-column social-column">
+          <h3>Connect With Me</h3>
+          <p class="social-prompt">
+            Let's connect and create something amazing together.
+          </p>
+
+          <div class="footer-social-icons">
+            <a href="#" class="footer-social-btn" title="GitHub"
+              ><i class="fa-brands fa-github" style="color: #fff"></i
+            ></a>
+            <a href="#" class="footer-social-btn" title="LinkedIn"
+              ><i class="fa-brands fa-linkedin" style="color: #fff"></i
+            ></a>
+            <a href="#" class="footer-social-btn" title="Twitter / X"
+              ><i class="fa-brands fa-x-twitter" style="color: #fff"></i
+            ></a>
+            <a href="#" class="footer-social-btn" title="Telgram"
+              ><i class="fa-brands fa-telegram" style="color: #fff"></i
+            ></a>
+            <a href="#" class="footer-social-btn" title="Website"
+              ><i class="fa-solid fa-globe" style="color: #fff"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p class="copyright-text">&copy; 2026 KUDOZ UNIVERCITY SE STUDENT.</p>
+        <p class="credits-text">
+          Built with
+          <span class="heart-icon"
+            ><i class="fa fa-solid fa-heart" sytle="color:red;"></i
+          ></span>
+          using HTML & CSS
+        </p>
+      </div>
+    </footer>
+  </body>
+  <script src="js/custom.js"></script>
+</html>
